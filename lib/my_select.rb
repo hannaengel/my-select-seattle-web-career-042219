@@ -9,3 +9,7 @@ def my_select(collection)
   end
   newArray
 end
+
+my_select(nums) do |num| 
+  num.even? 
+end 
